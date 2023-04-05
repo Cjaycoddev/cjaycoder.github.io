@@ -1,0 +1,26 @@
+.video-bg {
+    position: relative;
+}
+.video-bg video{
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 150%;
+    height: 350%;
+    z-index: -1;
+
+
+}
+
+.video-bg p{
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+}
+#header a:hover{
+    background-color: rgb(49, 207, 35);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+
+}
